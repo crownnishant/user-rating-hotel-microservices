@@ -1,6 +1,5 @@
 package com.lcw.user.service.impl;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lcw.user.service.entity.Hotel;
 import com.lcw.user.service.entity.Rating;
 import com.lcw.user.service.entity.User;
@@ -14,7 +13,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
