@@ -5,6 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+//implementing feign client
 @FeignClient(name="HOTELSERVICE")
 public interface HotelServiceClient {
 
